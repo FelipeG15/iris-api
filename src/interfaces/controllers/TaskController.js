@@ -21,6 +21,7 @@ router.get('/tasks', async (req, res) => {
 
 router.post('/tasks', [
   body('title').notEmpty().withMessage('El campo title es obligatorio.'),
+  body('completed').notEmpty().isBoolean().withMessage('El campo completed no es valido.'),
 ], async (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
