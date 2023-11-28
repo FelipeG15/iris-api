@@ -14,3 +14,6 @@ Paso a paso para la ejecución del proyecto:
 4. Ejecutar el comando npm run start para levantar la app.
 5. En la carpeta src\docs se encuentra la colección de postman la cual cuenta con los request para el consumo del api.
 6. En el siguiente link se encuentra la documentación de la api https://documenter.getpostman.com/view/21586730/2s9YeG5BLL
+
+
+En en siguiente drive se encuentra el video con una pequeña explicación sobre la configuración y funcionamiento de los proyectos https://drive.google.com/file/d/1Uvd63mgBLRv1nASascnWuWIJQE_yZEaG/view?usp=drive_link
