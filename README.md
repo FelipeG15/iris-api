@@ -12,4 +12,5 @@ Paso a paso para la ejecución del proyecto:
 2. Ingresar a la terminal en la raiz del proyecto y ejecutar el comando npm install.
 3. Ejecutar el comando npx sequelize-cli db:migrate, este comando llevara a cabo el mapeo y la migración de la tablas en la bd.
 4. Ejecutar el comando npm run start para levantar la app.
-
+5. En la carpeta src\docs se encuentra la colección de postman la cual cuenta con los request para el consumo del api.
+6. En el siguiente link se encuentra la documentación de la api https://documenter.getpostman.com/view/21586730/2s9YeG5BLL
